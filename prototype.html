@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Blueprint: Slide and Push Menus</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<style type="text/css">
+			#top {
+				position: fixed;
+				height: 60px;
+				width: 100%;
+				top: 0;
+				left: 0;
+				border-top: 5px solid #a1cb2f;
+				background: #fff;
+				-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+				-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+				box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+				z-index: 999999;
+			}
+			#top h1 {
+				line-height: 60px;
+			}
+			.w {
+				width: 100%;
+				margin: 0 auto;
+				margin-bottom: 40px;
+			}
+			#main {
+				position: absolute;
+				left:0px; top:60px; right:0; bottom:0;
+			}
+		</style>
+		
+		<script src="js/modernizr.custom.js"></script>
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+	</head>
+	<body class="cbp-spmenu-push">
+		<div id="top">
+			<div class="w">
+				<button id="button">Click Me!</button>
+			</div>
+		</div>
+		<div id="main">
+			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+				<h3>Menu</h3>
+				<button>test</button>
+				<a href="#">Celery seakale</a>
+				<a href="#">Dulse daikon</a>
+				<a href="#">Zucchini garlic</a>
+				<a href="#">Catsear azuki bean</a>
+				<a href="#">Dandelion bunya</a>
+				<a href="#">Rutabaga</a>
+			</nav>
+			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
+				<h3>Menu</h3>
+				<a href="#">Celery seakale</a>
+				<a href="#">Dulse daikon</a>
+				<a href="#">Zucchini garlic</a>
+				<a href="#">Catsear azuki bean</a>
+				<a href="#">Dandelion bunya</a>
+				<a href="#">Rutabaga</a>
+			</nav>
+			<div class="container">
+				<header class="clearfix">
+					<span>Blueprint</span>
+					<h1>Slide and Push Menus</h1>
+				</header>
+				<div class="main">
+					<section>
+						<h2>First Menu</h2>
+						<!-- Class "cbp-spmenu-open" gets applied to menu -->
+						<button id="showLeft">Show/Hide Left Slide Menu</button>
+						<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+						<button id="showLeftPush">Show/Hide Left Push Menu</button>
+					</section>
+					<section class="buttonset">
+						<h2>Second Menu</h2>
+						<!-- Class "cbp-spmenu-open" gets applied to menu -->
+						<button id="showLeft2">Show/Hide Left Slide Menu</button>
+						<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+						<button id="showLeftPush2">Show/Hide Left Push Menu</button>
+					</section>
+				</div>
+			</div>
+			<script src="js/jscript.js"></script>
+		</div>
+	</body>
+</html>
