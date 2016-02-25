@@ -1,43 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
 	<head>
-		<!--Import Google Icon Font-->
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
-		<!--Let browser know website is optimized for mobile-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	</head>
-	<body>
-		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="js/materialize.min.js"></script>
-		<script type="text/javascript" src="jscript.js"></script>
+		<meta charset="UTF-8" />
+		<title>Blueprint: Slide and Push Menus</title>
 		
-		<header class="page-topbar">
-			<nav>
-				<div class="nav-wrapper">
-					<a href="#!" class="brand-logo">Logo</a>
-					<ul class="right hide-on-med-and-down">
-						<li><a href="sass.html"><i class="material-icons">search</i></a></li>
-						<li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
-						<li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
-						<li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
-					</ul>
-				</div>
-			</nav>
-		</header>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<style type="text/css">
+			#top {
+				position: fixed;
+				height: 60px;
+				width: 100%;
+				top: 0;
+				left: 0;
+				border-top: 5px solid #a1cb2f;
+				background: #fff;
+				-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+				-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+				box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+				z-index: 999999;
+			}
+			#top h1 {
+				line-height: 60px;
+			}
+			.w {
+				width: 100%;
+				margin: 0 auto;
+				margin-bottom: 40px;
+			}
+			#main {
+				position: absolute;
+				left:0px; top:60px; right:0; bottom:0;
+			}
+		</style>
+		
+		<script src="js/modernizr.custom.js"></script>
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+	</head>
+	<body class="cbp-spmenu-push">
+		<div id="top">
+			<div class="w">
+				<button id="button">Click Me!</button>
+			</div>
+		</div>
 		<div id="main">
-			<aside id="left-sidebar-nav">
-				<ul id="slide-out" class="side-nav fixed">
-					<li><a href="#!">First Sidebar Link</a></li>
-					<li><a href="#!">Second Sidebar Link</a></li>
-				</ul>
-				<a href="#" data-activates="slide-out" class="sidebar-collapse">
-					<i class="mdi-navigation-menu"></i>
-				</a>
-			</aside>
+			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+				<h3>Menu</h3>
+				<button>test</button>
+				<a href="#">Celery seakale</a>
+				<a href="#">Dulse daikon</a>
+				<a href="#">Zucchini garlic</a>
+				<a href="#">Catsear azuki bean</a>
+				<a href="#">Dandelion bunya</a>
+				<a href="#">Rutabaga</a>
+			</nav>
+			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
+				<h3>Menu</h3>
+				<a href="#">Celery seakale</a>
+				<a href="#">Dulse daikon</a>
+				<a href="#">Zucchini garlic</a>
+				<a href="#">Catsear azuki bean</a>
+				<a href="#">Dandelion bunya</a>
+				<a href="#">Rutabaga</a>
+			</nav>
+			<div class="container">
+				<header class="clearfix">
+					<span>Blueprint</span>
+					<h1>Slide and Push Menus</h1>
+				</header>
+				<div class="main">
+					<section>
+						<h2>First Menu</h2>
+						<!-- Class "cbp-spmenu-open" gets applied to menu -->
+						<button id="showLeft">Show/Hide Left Slide Menu</button>
+						<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+						<button id="showLeftPush">Show/Hide Left Push Menu</button>
+					</section>
+					<section class="buttonset">
+						<h2>Second Menu</h2>
+						<!-- Class "cbp-spmenu-open" gets applied to menu -->
+						<button id="showLeft2">Show/Hide Left Slide Menu</button>
+						<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+						<button id="showLeftPush2">Show/Hide Left Push Menu</button>
+					</section>
+				</div>
+			</div>
+			<script src="js/jscript.js"></script>
 		</div>
 	</body>
-</html> 
+</html>
