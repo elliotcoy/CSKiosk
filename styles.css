@@ -1,0 +1,52 @@
+
+/***********************
+	DARK	#0F0F0F
+	LIGHT	#D0D0D0
+    LIGHTER #F0F0F0
+	RED	    #AF0F0F
+    RED2    #D04040
+***********************/
+
+html{	
+	background-color: #F0F0F0;
+	font-family: "Century Gothic", "sans-serif";
+	font-weight: normal;
+	font-size: 14px;
+	color: #FFF;
+	padding: 0;
+	margin: 0;
+}
+h1{
+	color: #0F0F0F;
+	font-weight: normal;
+	font-size: 24px;
+	margin-top: 0px;
+    margin: 3px;
+}
+h2{
+    color: #0F0F0F;
+	font-weight: normal;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+    background-color: #AF0F0F;
+	color: #F0F0F0;
+	font-weight: normal;
+	font-size: 18px;
+	padding: 5px;
+	margin: 0;
+
+    position: absolute;
+}
+
+nav2{
+    background-color: #D04040;
+	color: #0F0F0F;
+	font-weight: normal;
+	font-size: 18px;
+	padding: 5px;
+	margin: 0;
+}
