@@ -88,7 +88,7 @@ var topic8 =	"<h1><b>Employers</b></h1><br>" +
 				"</ul>" +
 				"There's no lack of employers looking for capable computer science graduates. In fact, another possible<br>" +
 				"employer could be... you! There are many computer scientists with entrepreneurial spirit who have started<br>" +
-				"their own companies and become highly successful. You could be the next one!";
+				"their own companies and become highly successful. You could be the next one!<br><br><br><br><br>";
 
 var topic9 =	"<h1><b>Demand</b></h1><br>" +
 				"Considering how technology dependent our world has become, the demand for computer scientists<br>" +
