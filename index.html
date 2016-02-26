@@ -11,19 +11,18 @@
     <script src="jscript.js"></script>
 </head>
 
-<body>
-    
+<body onload="contentManager(0);">
     <div class="header" id="top">
         <table style="float:right; padding-right: 40px; top:0;">
             <tr>
-                <td>
-                    <button class="backBtn" onclick="home();"></button>
+				<td>
+					<button class="homeBtn" onclick="home();"></button>
+                </td>
+				<td>
+					<button class="backBtn"></button>
                 </td>
                 <td>
                     <button id="slideShow" class="slideBtn" onclick="expandSlideShow();"></button>
-                </td>
-                <td>
-                    <button class="homeBtn" onclick="home();"></button>
                 </td>
             </tr>
         </table>
