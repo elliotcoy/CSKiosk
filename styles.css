@@ -54,52 +54,53 @@ h2{
 
 .backBtn {
     background: URL(img/back.png);
-    top: 0px;
-    right: 30px;
+    top: 10px;
+    right: 25%;
     width: 65px;
     height: 52px;
     border: 0px;
-    margin-right: 40px;
+    position: absolute;
 }
 
 .backBtn:active {
     background: URL(img/backActive.png); 
-    top: 0px; 
-    right: 30px; 
+    top: 10px; 
+    right: 25%;
     width: 65px; 
     height: 52px; 
     border: 0px;
-    margin-right: 40px;
+    position: absolute;
 }
 
 .homeBtn {
     background: URL(img/home.png);
-    top: 0px;
-    right: 30px;
+    top: 10px;
+    right: 5%;
     width: 52px;
     height: 55px;
     border: 0px;
-    margin-right: 40px;
+    position: absolute;
 }
 
 .homeBtn:active {
     background: URL(img/homeActive.png); 
-    top: 0px; 
-    right: 30px; 
+    top: 10px; 
+    right: 5%; 
     width: 52px; 
     height: 55px; 
     border: 0px;
-    margin-right: 40px;
+    position: absolute;
 }
 
 .slideBtn {
     background: URL(img/slide.png);
-    top: 0px;
-    right: 30px;
+    top: 10px;
+    right: 15%;
     width: 65px;
     height: 55px;
     border: 0px;
-    margin-right: 40px;
+    position: absolute;
+    z-index: 10;
 }
 
 .content{
