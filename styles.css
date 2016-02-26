@@ -52,50 +52,34 @@ h2{
     left: 0px;
 }
 
-.backBtn {
-    background: URL(img/back.png);
-    top: 10px;
-    right: 25%;
-    width: 65px;
-    height: 52px;
-    border: 0px;
-    position: absolute;
-}
-
-.backBtn:active {
-    background: URL(img/backActive.png); 
-    top: 10px; 
-    right: 25%;
-    width: 65px; 
-    height: 52px; 
-    border: 0px;
-    position: absolute;
-}
-
 .homeBtn {
     background: URL(img/home.png);
-    top: 10px;
-    right: 5%;
-    width: 52px;
+    top: 2%;
+    right: 282px;
+    width: 98px;
+    height: 55px;    
+    border: 0px;
+    position: absolute;
+}.homeBtn:active {
+    background: URL(img/homeActive.png);
+}
+
+.aboutBtn {
+    background: URL(img/about.png);
+    top: 2%;
+    right: 162px;
+    width: 98px;
     height: 55px;
     border: 0px;
     position: absolute;
-}
-
-.homeBtn:active {
-    background: URL(img/homeActive.png); 
-    top: 10px; 
-    right: 5%; 
-    width: 52px; 
-    height: 55px; 
-    border: 0px;
-    position: absolute;
+}.aboutBtn:active {
+    background: URL(img/aboutActive.png);
 }
 
 .slideBtn {
     background-color: #444;
-    top: 10px;
-    right: 14%;
+    top: 2%;
+    right: 22px;
     width: 98px;
     height: 55px;
     border: 0px;
