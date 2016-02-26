@@ -36,8 +36,8 @@ function expandSlideShow() {
     }
     else{
         $("#slideShow").animate({
-            top: '10px',
-            right: '14%',
+            top: '2%',
+            right: '22px',
             width: '98px',
             height: '55px'
         });
