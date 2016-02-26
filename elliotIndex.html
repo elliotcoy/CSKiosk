@@ -6,27 +6,30 @@
     <title>Computer Science Kiosk</title>
     <link href="styles.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="content.js"></script>
     <script src="jscript.js"></script>
 </head>
 
 <body>
     <div class="header" id="top">
-
         <table style="float:right; padding-right: 40px; top:0;">
             <tr>
                 <td>
-                    <button class="backBtn"></button>
+                    <button class="backBtn" onclick="home();"></button>
                 </td>
                 <td>
-                    <button class="slideBtn"></button>
+                    <button class="slideBtn" onclick="home();"></button>
                 </td>
                 <td>
-                    <button class="homeBtn"></button>
+                    <button class="homeBtn" onclick="home();"></button>
                 </td>
             </tr>
         </table>
         <table style="float:left; padding-left: 10px; top:0;">
             <tr>
+				<!--<td>
+					<img src="img\unb_logo.png">
+				</td>-->
                 <td>
                     <h1 style="color:#F0F0F0; font-size:28px; padding-top: 6px; margin:0px;">
                         Computer Science Information Guide
@@ -44,41 +47,43 @@
 
 
         <div class="nav2" id="ComputerWhatNav">
-            <button class="navBtn2"     id="Topic 1" onclick="pHolder()">Topic Goes Here</button>
-            <button class="navBtn2" id="Topic 2" onclick="pHolder()">Topic Goes Here</button>
-            <button class="navBtn2" id="Topic 3" onclick="pHolder()">Topic Goes Here</button>
-            <button class="navBtn2" id="Topic 4" onclick="pHolder()">Topic Goes Here</button>
-            <button class="navBtn2" id="Topic 5" onclick="pHolder()">Topic Goes Here</button>
+            <button class="navBtn2" id="Topic1" onclick="contentManager(1);">Computer Science!</button>
+            <button class="navBtn2" id="Topic2" onclick="contentManager(2);">Myths About<br>Computer Science</button>
+            <button class="navBtn2" id="Topic3" onclick="contentManager(3);">What is<br>Computer Science?</button>
+            <button class="navBtn2" id="Topic4" onclick="contentManager(4);">History of<br>Computer Science</button>
+            <button class="navBtn2" id="Topic5" onclick="contentManager(5);">Topics in<br>Computer Science</button>
         </div>
 
         <div class="nav2" id="CareersNav">
-            <button class="navBtn2" id="Topic 6" onclick="pHolder()">Topic Goes Here</button>
-            <button class="navBtn2" id="Topic 7" onclick="pHolder()">Topic Goes Here</button>
-            <button class="navBtn2" id="Topic 8" onclick="pHolder()">Topic Goes Here</button>
-            <button class="navBtn2" id="Topic 9" onclick="pHolder()">Topic Goes Here</button>
+            <button class="navBtn2" id="Topic6" onclick="contentManager(6);">They're Everywhere!</button>
+            <button class="navBtn2" id="Topic7" onclick="contentManager(7);">Types of Jobs</button>
+            <button class="navBtn2" id="Topic8" onclick="contentManager(8);">Employers</button>
+            <button class="navBtn2" id="Topic9" onclick="contentManager(9);">Demand</button>
         </div>
 
         <div class="nav2" id="UNBcsNav">
-            <button class="navBtn2" id="Topic 10" onclick="pHolder()">Topic Goes Here</button>
-            <button class="navBtn2" id="Topic 11" onclick="pHolder()">Topic Goes Here</button>
-            <button class="navBtn2" id="Topic 12" onclick="pHolder()">Topic Goes Here</button>
+            <button class="navBtn2" id="Topic10" onclick="contentManager(10);">Faculty of<br>Computer Science</button>
+            <button class="navBtn2" id="Topic11" onclick="contentManager(11);">First Year Schedule</button>
+            <button class="navBtn2" id="Topic12" onclick="contentManager(12);">Co-Op Program</button>
+			<button class="navBtn2" id="Topic12" onclick="contentManager(13);">Concurrent Programs</button>
+			<button class="navBtn2" id="Topic12" onclick="contentManager(14);">And Beyond!</button>
         </div>
 
         <div class="nav2" id="ApplyNav">
-            <button class="navBtn2" id="Topic 13" onclick="pHolder()">Topic Goes Here</button>
-            <button class="navBtn2" id="Topic 14" onclick="pHolder()">Topic Goes Here</button>
+            <button class="navBtn2" id="Topic13" onclick="contentManager(15);">Applying to UNB</button>
+            <button class="navBtn2" id="Topic14" onclick="contentManager(16);">Requesting<br>More Information</button>
         </div>
 
 
         <div class="nav1">
-            <button class="navBtn1" id="ComputerWhat" onclick="ComputerWhat()">Computer What?</button>
-            <button class="navBtn1" id="Careers" onclick="Careers()">Careers in Computer Science</button>
-            <button class="navBtn1" id="UNBcs" onclick="UNBcs()">Computer Science at UNB</button>
-            <button class="navBtn1" id="Apply" onclick="Apply()">How to Apply</button>
+            <button class="navBtn1" id="ComputerWhat" onclick="ComputerWhat();">Computer What?</button>
+            <button class="navBtn1" id="Careers" onclick="Careers();">Careers in Computer Science</button>
+            <button class="navBtn1" id="UNBcs" onclick="UNBcs();">Computer Science at UNB</button>
+            <button class="navBtn1" id="Apply" onclick="Apply();">How to Apply</button>
         </div>
 
         <div>
-            <button class="invisButton" id="invisButton" onclick="expandNav()">Computer What?</button>
+            <button class="invisButton" id="invisButton" onclick="expandNav();">Computer What?</button>
         </div>
         
     </div>
