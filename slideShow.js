@@ -25,7 +25,7 @@ function expandSlideShow() {
     else{
         $("#slideShow").animate({
             top: '10px',
-            right: '12%',
+            right: '15%',
             width: '65px',
             height: '55px'
         });
