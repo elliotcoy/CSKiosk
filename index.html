@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en">
-<head onload="slideShowInit()">
+<head>
     <meta charset="UTF-8">
     <title>Computer Science Kiosk</title>
     <link href="styles.css" rel="stylesheet">
@@ -11,7 +11,7 @@
     <script src="jscript.js"></script>
 </head>
 
-<body>
+<body onload="slideShow()">
     
     <div class="header" id="top">
         <table style="float:right; padding-right: 40px; top:0;">
@@ -20,7 +20,18 @@
                     <button class="backBtn" onclick="home();"></button>
                 </td>
                 <td>
-                    <button id="slideShow" class="slideBtn" onclick="expandSlideShow();"></button>
+                    <div id="slideShow" class="slideBtn" onclick="expandSlideShow();">
+
+                        <img id="slide1" src="img/Slide1.png" alt="" width="1280" height="720"
+                             style="width:100%; height:100%; position:absolute; top:0px; left:0px;" />
+
+                        <img id="slide2" src="img/Slide2.png" alt="" width="1280" height="720"
+                             style="width:100%; height:100%; position:absolute; top:0px; left:0px;" />
+
+                        <img id="exit" src="img/exit.png" alt="" width="1280" height="720"
+                             style="width:100%; height:100%; position:absolute; top:0px; left:0px;" />
+
+                    </div>
                 </td>
                 <td>
                     <button class="homeBtn" onclick="home();"></button>
