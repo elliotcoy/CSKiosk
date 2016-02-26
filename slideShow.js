@@ -1,5 +1,5 @@
 var expand = 1;
-var slide = 0;
+var slide = -1;
 
 function slideShow() {
     if (slide) {
@@ -13,10 +13,15 @@ function slideShow() {
         });
     }
     slide = !slide;
-    setTimeout(slideShow, 5000);
+    setTimeout(slideShow(), 1000);
+    return;
 }
 
 function expandSlideShow() {
+    if (slide == -1) {
+        slide = 0;
+        slideShow();
+    }
     if (expand) {
         $("#slideShow").animate({
             top: '0px',
