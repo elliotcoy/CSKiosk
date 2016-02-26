@@ -41,14 +41,67 @@ h2{
 }
 
 .header {
+    background-color: #0F0F0F;
     padding: 0px;
     padding-left: 1%;
+    padding-top: 8px;
     margin: 0px;
-    height: 8%;
+    height: 10%;
     width: 100%;
     top: 0px;
     left: 0px;
 }
+
+.backBtn {
+    background: URL(img/back.png);
+    top: 0px;
+    right: 30px;
+    width: 65px;
+    height: 52px;
+    border: 0px;
+    margin-right: 40px;
+}
+
+.backBtn:active {
+    background: URL(img/backActive.png); 
+    top: 0px; 
+    right: 30px; 
+    width: 65px; 
+    height: 52px; 
+    border: 0px;
+    margin-right: 40px;
+}
+
+.homeBtn {
+    background: URL(img/home.png);
+    top: 0px;
+    right: 30px;
+    width: 52px;
+    height: 55px;
+    border: 0px;
+    margin-right: 40px;
+}
+
+.homeBtn:active {
+    background: URL(img/homeActive.png); 
+    top: 0px; 
+    right: 30px; 
+    width: 52px; 
+    height: 55px; 
+    border: 0px;
+    margin-right: 40px;
+}
+
+.slideBtn {
+    background: URL(img/slide.png);
+    top: 0px;
+    right: 30px;
+    width: 65px;
+    height: 55px;
+    border: 0px;
+    margin-right: 40px;
+}
+
 .content{
 	color: #0F0F0F;
 	font-weight: normal;
@@ -158,10 +211,6 @@ h2{
     overflow: hidden;
 }
 
-button:hover{
-    background-color: #D82E3B;
-}
-
 button:active{
-    background-color: #F0A0A0;
+    background-color: #D82E3B;
 }
