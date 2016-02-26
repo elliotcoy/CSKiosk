@@ -44,17 +44,56 @@ var topic4 =	"<h1><b>History of Computer Science</b></h1><br>";
 var topic5 =	"<h1><b>Topics in Computer Science</b></h1><br>";
 
 var topic6 =	"<h1><b>They're Everywhere!</b></h1><br>" +
-				"Computer science is a highly applicable field. Think about any field of study: engineering, business,<br>" +
-				"even languages and history! Computer science can be applied to any of those in some way. Thanks<br>" +
-				"to this, there are jobs involving computer science almost everywhere and anywhere you can imagine.<br>" +
+				"Computer science is a highly applicable field. Think about any other field of study: engineering, <br>" +
+				"business, even languages and history! Computer science can be applied to any of those in some way.<br>" +
+				"Thanks to this, there are jobs involving computer science almost everywhere and anywhere you can<br>" +
+				"imagine. From designing a game engine for the next big hit in Vancouver, Canada to creating systems<br>" +
+				"for analyzing output data from the Large Hadron Collider in Geneva, Switzerland, the possibilities are<br>" +
+				"endless!<br>" +
 				"<br>" +
 				"For more information, check the subtopics on the right.";
 
-var topic7 =	"<h1><b>Types of Jobs</b></h1><br>";
+var topic7 =	"<h1><b>Types of Jobs</b></h1><br>" +
+				"There are many fields that computer science can be applied to, as well as types of jobs that computer<br>" +
+				"scientists can do. Some examples are:<br>" +
+				"<ul>" +
+				"<li>Web Designer</li>" +
+				"<li>Game Developer</li>" +
+				"<li>Penetration Tester</li>" +
+				"<li>Mobile App Programmer</li>" +
+				"<li>Systems Analyst</li>" +
+				"<li>Database Administrator</li>" +
+				"</ul>" +
+				"As an alternative, you could also perform research instead. Many universities are performing cutting<br>" +
+				"edge research, pushing the enveloppe of what's possible with computer science. And you could be<br>" +
+				"helping!";
 
-var topic8 =	"<h1><b>Employers</b></h1><br>";
+var topic8 =	"<h1><b>Employers</b></h1><br>" +
+				"Considering how computer science affects so many fields, almost every company, in some way, employs<br>" +
+				"computer scientists. Sometimes they hire them directly, other times they hire them through a consulting<br>" +
+				"firm, etc. Well-known employers include Google, Microsoft, Oracle, IBM, and many others. There are also<br>" +
+				"hundreds of local employers also looking for capable computer scientists. These include:<br>"+
+				"<ul>" +
+				"<li>Irving</li>" +
+				"<li>Blue Spurs</li>" +
+				"<li>Accreon</li>" +
+				"<li>Quick Service Software</li>" +
+				"<li>Populus Global</li>" +
+				"<li>Siemens</li>" +
+				"<li>Cvent</li>" +
+				"<li>Introhive</li>" +
+				"<li>CARIS</li>" +
+				"<li>LiveOps</li>" +
+				"<li>and many more!</li>" +
+				"</ul>" +
+				"There's no lack of employers looking for capable computer science graduates. In fact, another possible<br>" +
+				"employer could be... you! There are many computer scientists with entrepreneurial spirit who have started<br>" +
+				"their own companies and become highly successful. You could be the next one!";
 
-var topic9 =	"<h1><b>Demand</b></h1><br>";
+var topic9 =	"<h1><b>Demand</b></h1><br>" +
+				"Considering how technology dependent our world has become, the demand for computer scientists<br>" +
+				"will only keep rising. There's always more research to be done, more mobile apps to make, more systems<br>" +
+				"to design, etc.";
 
 var topic10 =	"<h1><b>Faculty of Computer Science</b></h1><br>";
 
@@ -62,7 +101,7 @@ var topic11 =	"<h1><b>First Year Schedule</b></h1><br>";
 
 var topic12 =	"<h1><b>Co-Op Program</b></h1><br>";
 
-var topic13 =	"<h1><b></b>Concurrent Programs</h1><br>";
+var topic13 =	"<h1><b>Concurrent Programs</b></h1><br>";
 
 var topic14 =	"<h1><b>And Beyond!</b></h1><br>";
 
