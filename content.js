@@ -6,32 +6,49 @@ var topic0 =	"<h1><b>Welcome!</b></h1><br>" +
 var topic1 =	"<h1><b>Computer Science!</b></h1><br>";
 
 var topic2 =	"<h1><b>Myths About Computer Science</b></h1><br>" +
-				"Despite its impact on modern day life, many people have misconceptions about what computer science<br>" +
-				"is actually about. Here's a list of common misconceptions, and why they're untrue.<br>" +
+				"Despite its significant impact on modern day life, many people have misconceptions about what computer<br>" +
+				"science is actually about. Here's a list of common misconceptions, and why they're untrue.<br>" +
 				"<ul>" +
 				"<li>Computer science is about being able to use computer programs</li>" +
-				"<li style='margin-left:2em'>test</li>" +
+				"<li style='margin-left:2em'>Computer science consists of more than being able to use regular computer programs. In fact,<br>" +
+				"computer scientists probably designed and created that program!</li>" +
 				"<li>Computer science is about programming</li>" +
-				"<li style='margin-left:2em'>test</li>" +
+				"<li style='margin-left:2em'>This is a fairly narrow view of computer science; though programming is certainly something<br>" +
+				"many computer scientists can do, there are many aspects of computer science that have<br>" +
+				"nothing to do with programming!</li>" +
 				"<li>Computer science is about computer repair and IT</li>" +
-				"<li style='margin-left:2em'>test</li>" +
+				"<li style='margin-left:2em'>Actually, computer science has very little to do with computer repair. Computers are merely the<br>" +
+				"tools of the trade, like how astronomers use telescopes or chemists use test tubes. Also, though<br>" +
+				"it's a nice bonus to be able to fix your own tool, it's not a requirement in the slightest.</li>" +
 				"<li>Computer science sounds boring</li>" +
-				"<li style='margin-left:2em'>test</li>" +
-				"<li>Computer science is for geeks</li>" +
-				"<li style='margin-left:2em'>test</li>" +
+				"<li style='margin-left:2em'>At the end of the day, computer science influences everything, from electric cars to mobile<br>" +
+				"phones like the one in your pocket. I'd hardly call that boring!</li>" +
 				"<li>Computer science lacks creativity</li>" +
-				"<li style='margin-left:2em'>test</li>" +
+				"<li style='margin-left:2em'>Computer science relies heavily on problem solving skills, and many of the advances made<br>" +
+				"in the field required sparks of creativity. You'll especially need some </li>" +
+				"<li>Computer science is for geeks</li>" +
+				"<li style='margin-left:2em'>Most certainly not! This is possibly a myth perpetuated by popular media; regardless, it is far from<br>" +
+				"the truth. Athletes to business analysts can all learn and apply computer science to their respective<br>" +
+				"fields.</li>" +
 				"<li>Computer science is not for women</li>" +
-				"<li style='margin-left:2em'>test</li>" +
-				"</ul>";
+				"<li style='margin-left:2em'>Computer science is most definitely not a gender-specific science, just like any other science.<br>" +
+				"In fact, there are many notable women that have made major contributions to the field, and we<br>" +
+				"hope that this continues to be the case!</li>" +
+				"</ul><br><br><br><br><br>";
 
-var topic3 =	"<h1><b>What is Computer Science?</b></h1><br>";
+var topic3 =	"<h1><b>What is Computer Science?</b></h1><br>" +
+				"";
 
 var topic4 =	"<h1><b>History of Computer Science</b></h1><br>";
 
 var topic5 =	"<h1><b>Topics in Computer Science</b></h1><br>";
 
-var topic6 =	"<h1><b>They're Everywhere!</b></h1><br>";
+var topic6 =	"<h1><b>They're Everywhere!</b></h1><br>" +
+				"Computer science is a highly applicable field. Think about any field of study: engineering, business,<br>" +
+				"even languages and history! Computer science can be applied to any of those in some way. Thanks<br>" +
+				"to this, there are jobs involving computer science almost everywhere and anywhere you can imagine.<br>" +
+				"<br>" +
+				"For more information, check the subtopics on the right.";
 
 var topic7 =	"<h1><b>Types of Jobs</b></h1><br>";
 
