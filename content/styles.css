@@ -1,0 +1,222 @@
+
+/***********************
+	DARK	#0F0F0F
+	LIGHT	#D0D0D0
+    LIGHTER #F0F0F0
+	RED	    #AF0F0F
+    RED2    #D82E3B
+***********************/
+
+html, body{	
+	background-color: #0F0F0F;
+	font-family: "Century Gothic", "sans-serif";
+	font-weight: normal;
+	font-size: 14px;
+	color: #FFF;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+.main {
+    background-color:#D0D0D0; 
+    position:relative; 
+    top:0px;
+    height:100%; 
+    width:100%;
+}
+
+h1{
+	color: #0F0F0F;
+	font-weight: normal;
+	font-size: 24px;
+}
+h2{
+    color: #0F0F0F;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.header {
+    background-color: #0F0F0F;
+    padding: 0px;
+    padding-left: 1%;
+    padding-top: 8px;
+    margin: 0px;
+    height: 10%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.homeBtn {
+    background: URL(img/home.png);
+    top: 2%;
+    right: 282px;
+    width: 98px;
+    height: 55px;    
+    border: 0px;
+    position: absolute;
+}.homeBtn:active {
+    background: URL(img/homeActive.png);
+}
+
+.aboutBtn {
+    background: URL(img/about.png);
+    top: 2%;
+    right: 162px;
+    width: 98px;
+    height: 55px;
+    border: 0px;
+    position: absolute;
+}.aboutBtn:active {
+    background: URL(img/aboutActive.png);
+}
+
+.slideBtn {
+    background-color: #444;
+    top: 2%;
+    right: 22px;
+    width: 98px;
+    height: 55px;
+    border: 0px;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.content{
+	color: #0F0F0F;
+	font-weight: normal;
+	font-size: 18px;
+    padding-left:2%;
+
+    position: absolute;
+    height:100%;
+    width:80%;
+    left: 20%;
+    top: 0;
+    overflow:scroll;
+}
+
+.nav1{
+    background-color: #AF0F0F;
+	color: #F0F0F0;
+	font-weight: normal;
+    text-align: center;
+	font-size: 18px;
+    
+    position: absolute;
+    height:100%;
+    width:20%;
+    left: 0;
+    top: 0;
+}
+
+.nav2 {
+    background-color: #D82E3B;
+    color: #0F0F0F;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    
+    position: absolute;
+    height:100%;
+    width:14%;
+    left: 0;
+    top: 0;
+}
+
+.invisButton {
+    background-color: #FF00FF;
+    opacity: 0.0;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: absolute;
+    height:100%;
+    width:0%;
+    left: 0;
+    top: 0;
+}
+
+.navBtn1 {
+    background-color: #AF0F0F;
+    color: #F0F0F0;
+    width:100%;
+    height:100px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    padding: 8% 0% 8% 0%;
+    border: 0;
+	border-bottom: 1px solid #D0D0D0;
+    
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.navBtn1Selected {
+    background-color: #D82E3B;
+    color: #F0F0F0;
+    width:100%;
+    height:100px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    padding: 8% 0% 8% 0%;
+    border: 0;
+	border-bottom: 1px solid #D0D0D0;
+    
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.navBtn2 {
+    background-color: #D82E3B;
+    color: #F0F0F0;
+    width:100%;
+    height:100px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px; 
+    padding: 8% 0% 8% 0%;
+    border: 0;
+	border-bottom: 1px solid #D0D0D0;
+    
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.navBtn2Selected {
+    background-color: #D0D0D0;
+    color: #0F0F0F;
+    width:100%;
+    height:100px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px; 
+    padding: 8% 0% 8% 0%;
+    border: 0;
+	border-bottom: 1px solid #D0D0D0;
+    
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.navBtn1:active{
+    background-color: #D82E3B;
+}
+.navBtn2:active{
+    background-color: #D0D0D0;
+}

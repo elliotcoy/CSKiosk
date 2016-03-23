@@ -136,9 +136,13 @@ function home() {
 	contentManager(0);
 }
 
+function contentManager2(url) {
+
+}
+
 function contentManager(val) {
     if (val == 1) {
-        $("#ContentPane").html(topic1);
+        document.getElementById('frame').src = "content/computer/cs.html";
         $("#Topic1").addClass("navBtn2Selected").removeClass("navBtn2");
         $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -158,7 +162,7 @@ function contentManager(val) {
         $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
     }
     else if (val == 2) {
-        $("#ContentPane").html(topic2);
+        document.getElementById('frame').src = "content/computer/myths.html";
         $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic2").addClass("navBtn2Selected").removeClass("navBtn2");
         $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -178,7 +182,7 @@ function contentManager(val) {
         $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
     }
     else if (val == 3) {
-        $("#ContentPane").html(topic3);
+        document.getElementById('frame').src = "content/computer/whatiscs.html";
         $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic3").addClass("navBtn2Selected").removeClass("navBtn2");
@@ -198,7 +202,7 @@ function contentManager(val) {
         $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
     }
     else if (val == 4) {
-        $("#ContentPane").html(topic4);
+        document.getElementById('frame').src = "content/computer/history.html";
         $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -218,7 +222,7 @@ function contentManager(val) {
         $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
     }
     else if (val == 5) {
-        $("#ContentPane").html(topic5);
+        document.getElementById('frame').src = "content/computer/topics.html";
         $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -238,7 +242,7 @@ function contentManager(val) {
         $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
     }
     else if (val == 6) {
-        $("#ContentPane").html(topic6);
+        document.getElementById('frame').src = "content/careers/everywhere.html";
         $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -258,7 +262,7 @@ function contentManager(val) {
         $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
     }
     else if (val == 7) {
-        $("#ContentPane").html(topic7);
+        document.getElementById('frame').src = "content/careers/types.html";
         $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -278,7 +282,7 @@ function contentManager(val) {
         $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
     }
     else if (val == 8) {
-        $("#ContentPane").html(topic8);
+        document.getElementById('frame').src = "content/careers/employers.html";
         $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -297,8 +301,8 @@ function contentManager(val) {
         $("#Topic16").addClass("navBtn2").removeClass("navBtn2Selected");
         $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
     }
-	else if (val == 9) {
-	    $("#ContentPane").html(topic9);
+    else if (val == 9) {
+        document.getElementById('frame').src = "content/careers/demand.html";
 	    $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -317,8 +321,8 @@ function contentManager(val) {
 	    $("#Topic16").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
 	}
-	else if (val == 10) {
-	    $("#ContentPane").html(topic10);
+    else if (val == 10) {
+        document.getElementById('frame').src = "content/unbcs/faculty.html";
 	    $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -337,8 +341,8 @@ function contentManager(val) {
 	    $("#Topic16").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
 	}
-	else if (val == 11) {
-	    $("#ContentPane").html(topic11);
+    else if (val == 11) {
+        document.getElementById('frame').src = "content/unbcs/first.html";
 	    $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -357,8 +361,8 @@ function contentManager(val) {
 	    $("#Topic16").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
 	}
-	else if (val == 12) {
-	    $("#ContentPane").html(topic12);
+    else if (val == 12) {
+        document.getElementById('frame').src = "content/unbcs/coop.html";
 	    $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -377,8 +381,8 @@ function contentManager(val) {
 	    $("#Topic16").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
 	}
-	else if (val == 13) {
-	    $("#ContentPane").html(topic13);
+    else if (val == 13) {
+        document.getElementById('frame').src = "content/unbcs/concurrent.html";
 	    $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -397,8 +401,8 @@ function contentManager(val) {
 	    $("#Topic16").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
 	}
-	else if (val == 14) {
-	    $("#ContentPane").html(topic14);
+    else if (val == 14) {
+        document.getElementById('frame').src = "content/unbcs/beyond.html";
 	    $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -417,8 +421,8 @@ function contentManager(val) {
 	    $("#Topic16").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
 	}
-	else if (val == 15) {
-	    $("#ContentPane").html(topic15);
+    else if (val == 15) {
+        document.getElementById('frame').src = "content/apply/applying.html";
 	    $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -437,8 +441,8 @@ function contentManager(val) {
 	    $("#Topic16").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
 	}
-	else if (val == 16) {
-	    $("#ContentPane").html(topic16);
+    else if (val == 16) {
+        document.getElementById('frame').src = "content/apply/more.html";
 	    $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
@@ -458,7 +462,7 @@ function contentManager(val) {
 	    $("#Topic0").addClass("navBtn2").removeClass("navBtn2Selected");
 	}
 	else if (val == 0) {
-	    $("#ContentPane").html(topic0);
+	    document.getElementById('frame').src = "content/welcome.html";
 	    $("#Topic1").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic2").addClass("navBtn2").removeClass("navBtn2Selected");
 	    $("#Topic3").addClass("navBtn2").removeClass("navBtn2Selected");
