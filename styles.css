@@ -1,7 +1,7 @@
 
 /***********************
 	DARK	#0F0F0F
-	LIGHT	#D0D0D0
+	LIGHT	#E0E0E0
     LIGHTER #F0F0F0
 	RED	    #AF0F0F
     RED2    #D82E3B
@@ -22,7 +22,7 @@ html, body{
 }
 
 .main {
-    background-color:#D0D0D0; 
+    background-color:#E0E0E0; 
     position:relative; 
     top:0px;
     height:100%; 
@@ -30,9 +30,12 @@ html, body{
 }
 
 h1{
-	color: #0F0F0F;
-	font-weight: normal;
-	font-size: 24px;
+	color: #AF0F0F;
+	font-weight: 100;
+    text-shadow: 1px 1px #0F0F0F;
+	font-size: 54px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 h2{
     color: #0F0F0F;
@@ -96,10 +99,19 @@ h2{
 
     position: absolute;
     height:100%;
-    width:80%;
+    width:76%;
     left: 20%;
     top: 0;
-    overflow:scroll;
+    text-wrap: normal;
+    overflow: scroll;
+    margin-left: 4%;
+    padding-right: 10%;
+}
+
+li {
+    padding-bottom: 10px;
+    font-size: 15px;
+
 }
 
 .nav1{
@@ -156,7 +168,7 @@ h2{
     font-size: 20px;
     padding: 8% 0% 8% 0%;
     border: 0;
-	border-bottom: 1px solid #D0D0D0;
+	border-bottom: 1px solid #E0E0E0;
     
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -173,7 +185,7 @@ h2{
     font-size: 20px;
     padding: 8% 0% 8% 0%;
     border: 0;
-	border-bottom: 1px solid #D0D0D0;
+	border-bottom: 1px solid #E0E0E0;
     
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -190,7 +202,7 @@ h2{
     font-size: 20px; 
     padding: 8% 0% 8% 0%;
     border: 0;
-	border-bottom: 1px solid #D0D0D0;
+	border-bottom: 1px solid #E0E0E0;
     
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -198,7 +210,7 @@ h2{
 }
 
 .navBtn2Selected {
-    background-color: #D0D0D0;
+    background-color: #E0E0E0;
     color: #0F0F0F;
     width:100%;
     height:100px;
@@ -207,7 +219,7 @@ h2{
     font-size: 20px; 
     padding: 8% 0% 8% 0%;
     border: 0;
-	border-bottom: 1px solid #D0D0D0;
+	border-bottom: 1px solid #E0E0E0;
     
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -218,5 +230,5 @@ h2{
     background-color: #D82E3B;
 }
 .navBtn2:active{
-    background-color: #D0D0D0;
+    background-color: #E0E0E0;
 }
