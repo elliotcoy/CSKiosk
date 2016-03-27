@@ -7,30 +7,50 @@
     RED2    #D82E3B
 ***********************/
 
-html, body{	
+html{	
 	background-color: #E0E0E0;
 	font-family: "Century Gothic", "sans-serif";
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 20px;
+	color: #0F0F0F;
+    height:99%;
+    width:101%;
+    overflow: hidden;
+}
+body{	
+	background-color: #E0E0E0;
+	font-family: "Century Gothic", "sans-serif";
+	font-weight: normal;
+	font-size: 20px;
 	color: #0F0F0F;
     margin: 0px;
     padding: 1%;
     padding-left: 2%;
     top: 0px;
-    height:100%;
-    width:96%;
-    overflow: hidden;
+    height:96%;
+    width:98%;
+    overflow: scroll;
 }
 
 h1{
 	color: #0F0F0F;
-	font-weight: normal;
-	font-size: 24px;
+	font-weight: 500;
+	font-size: 32px;
 }
 h2{
     color: #0F0F0F;
-	font-weight: normal;
-	font-size: 18px;
+	font-weight: 600;
+	font-size: 22px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+td{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 50%;
 }
 
 .header {
