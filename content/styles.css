@@ -17,15 +17,9 @@ html{
     width:101%;
     overflow: hidden;
 }
-body{	
-	background-color: #E0E0E0;
-	font-family: "Century Gothic", "sans-serif";
-	font-weight: normal;
-	font-size: 20px;
-	color: #0F0F0F;
+body{
     margin: 0px;
-    padding: 1%;
-    padding-left: 2%;
+    padding: 5% 1% 1% 2%;
     top: 0px;
     height:96%;
     width:98%;
@@ -33,16 +27,33 @@ body{
 }
 
 h1{
-	color: #0F0F0F;
-	font-weight: 500;
+	color: #AF0F0F;
 	font-size: 32px;
+	font-weight: 600;
+    margin-top: 0px;
+    text-shadow: 1px 1px 1px #000;
 }
 h2{
-    color: #0F0F0F;
+    color: #AF0F0F;
+	font-size: 20px;
 	font-weight: 600;
-	font-size: 22px;
-    padding: 0px;
     margin-bottom: 0px;
+    padding: 0px;
+}
+h3{
+    color: #0F0F0F;
+	font-size: 20px;
+	font-weight: 600;
+    font-style: oblique;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    color: #0F0F0F;
+	font-size: 20px;
+	font-weight: 400;
+    margin-top: 0px;
+    padding: 0px;
 }
 
 td{
@@ -51,16 +62,4 @@ td{
     padding-left: 4px;
     padding-right: 4px;
     width: 50%;
-}
-
-.header {
-    background-color: #0F0F0F;
-    padding: 0px;
-    padding-left: 1%;
-    padding-top: 8px;
-    margin: 0px;
-    height: 10%;
-    width: 100%;
-    top: 0px;
-    left: 0px;
 }
