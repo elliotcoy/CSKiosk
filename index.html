@@ -1,92 +1,100 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<title>Blueprint: Slide and Push Menus</title>
-		
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<style type="text/css">
-			#top {
-				position: fixed;
-				height: 60px;
-				width: 100%;
-				top: 0;
-				left: 0;
-				border-top: 5px solid #a1cb2f;
-				background: #fff;
-				-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-				-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-				box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-				z-index: 999999;
-			}
-			#top h1 {
-				line-height: 60px;
-			}
-			.w {
-				width: 100%;
-				margin: 0 auto;
-				margin-bottom: 40px;
-			}
-			#main {
-				position: absolute;
-				left:0px; top:60px; right:0; bottom:0;
-			}
-		</style>
-		
-		<script src="js/modernizr.custom.js"></script>
-		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
-		<script src="js/classie.js"></script>
-	</head>
-	<body class="cbp-spmenu-push">
-		<div id="top">
-			<div class="w">
-				<button id="button">Click Me!</button>
-			</div>
-		</div>
-		<div id="main">
-			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
-				<h3>Menu</h3>
-				<button>test</button>
-				<a href="#">Celery seakale</a>
-				<a href="#">Dulse daikon</a>
-				<a href="#">Zucchini garlic</a>
-				<a href="#">Catsear azuki bean</a>
-				<a href="#">Dandelion bunya</a>
-				<a href="#">Rutabaga</a>
-			</nav>
-			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
-				<h3>Menu</h3>
-				<a href="#">Celery seakale</a>
-				<a href="#">Dulse daikon</a>
-				<a href="#">Zucchini garlic</a>
-				<a href="#">Catsear azuki bean</a>
-				<a href="#">Dandelion bunya</a>
-				<a href="#">Rutabaga</a>
-			</nav>
-			<div class="container">
-				<header class="clearfix">
-					<span>Blueprint</span>
-					<h1>Slide and Push Menus</h1>
-				</header>
-				<div class="main">
-					<section>
-						<h2>First Menu</h2>
-						<!-- Class "cbp-spmenu-open" gets applied to menu -->
-						<button id="showLeft">Show/Hide Left Slide Menu</button>
-						<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-						<button id="showLeftPush">Show/Hide Left Push Menu</button>
-					</section>
-					<section class="buttonset">
-						<h2>Second Menu</h2>
-						<!-- Class "cbp-spmenu-open" gets applied to menu -->
-						<button id="showLeft2">Show/Hide Left Slide Menu</button>
-						<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-						<button id="showLeftPush2">Show/Hide Left Push Menu</button>
-					</section>
-				</div>
-			</div>
-			<script src="js/jscript.js"></script>
-		</div>
-	</body>
+﻿﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Science Kiosk</title>
+    <link href="shellStyles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="slideShow.js"></script>
+	<script src="content.js"></script>
+    <script src="jscript.js"></script>
+</head>
+
+<body onload="contentManager(0); slideShow();">
+    <div class="header" id="top">
+        <table style="float:right;">
+            <tr>
+				<td>
+					<button class="homeBtn" onclick="home();"></button>
+                </td>
+                <td>
+                    <button class="aboutBtn"></button>
+                </td>
+                <td>
+                    <div id="slideShow" class="slideBtn" onclick="expandSlideShow();">
+
+                        <img id="slide1" src="img/Slide1.png" alt="" width="1280" height="720"
+                             style="width:100%; height:100%; position:absolute; top:0px; left:0px;" />
+                        <img id="slide2" src="img/Slide2.png" alt="" width="1280" height="720"
+                             style="width:100%; height:100%; position:absolute; top:0px; left:0px; opacity:0.0;" />
+                        <img id="exit" src="img/exit.png" alt="" width="1280" height="720"
+                             style="width:100%; height:100%; position:absolute; top:0px; left:0px;" />
+
+                    </div>
+            </tr>
+        </table>
+        <table style="float:left; padding-left: 10px; top:0;">
+            <tr>
+				<!--<td>
+					<img src="img\unb_logo.png">
+				</td>-->
+                <td>
+                    <h1 style="color:#F0F0F0; font-size:28px; top:2%;">
+                        Computer Science Information Kiosk
+                    </h1>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div CLASS="main" id="main">
+        <div class="content" id="ContentPane">
+            <iframe class="iframe" id="frame" src="/content/welcome.html" style="width:100%; height:95%; margin:0; border:0; padding:0;"></iframe>
+        </div>
+        
+        <div class="nav2" id="ComputerWhatNav">
+            <button class="navBtn2" id="Topic1" onclick="contentManager(1);">Computer Science!</button>
+            <button class="navBtn2" id="Topic2" onclick="contentManager(2);">Myths About<br>Computer Science</button>
+            <!--<button class="navBtn2" id="Topic3" onclick="contentManager(3);">What is<br>Computer Science?</button>
+            <button class="navBtn2" id="Topic4" onclick="contentManager(4);">History of<br>Computer Science</button>-->
+            <button class="navBtn2" id="Topic5" onclick="contentManager(5);">Topics in<br>Computer Science</button>
+        </div>
+
+        <div class="nav2" id="CareersNav">
+            <button class="navBtn2" id="Topic6" onclick="contentManager(6);">They're Everywhere!</button>
+            <button class="navBtn2" id="Topic7" onclick="contentManager(7);">Types of Jobs</button>
+            <button class="navBtn2" id="Topic8" onclick="contentManager(8);">Employers</button>
+            <!--<button class="navBtn2" id="Topic9" onclick="contentManager(9);">Demand</button>-->
+        </div>
+
+        <div class="nav2" id="UNBcsNav">
+            <button class="navBtn2" id="Topic10" onclick="contentManager(10);">Faculty of<br>Computer Science</button>
+            <!--//<button class="navBtn2" id="Topic11" onclick="contentManager(11);">First Year Schedule</button>-->
+            <button class="navBtn2" id="Topic12" onclick="contentManager(12);">Co-Op Program</button>
+			<!--button class="navBtn2" id="Topic13" onclick="contentManager(13);">Concurrent Programs</button>
+			<button class="navBtn2" id="Topic14" onclick="contentManager(14);">And Beyond!</button>-->
+        </div>
+
+        <div class="nav2" id="ApplyNav">
+            <button class="navBtn2" id="Topic15" onclick="contentManager(15);">Applying to UNB</button>
+            <button class="navBtn2" id="Topic16" onclick="contentManager(16);">Requesting<br>More Information</button>
+        </div>
+
+
+        <div class="nav1">
+            <button class="navBtn1" id="ComputerWhat" onclick="ComputerWhat();">Computer What?</button>
+            <button class="navBtn1" id="Careers" onclick="Careers();">Careers in Computer Science</button>
+            <button class="navBtn1" id="UNBcs" onclick="UNBcs();">Computer Science at UNB</button>
+            <button class="navBtn1" id="Apply" onclick="Apply();">How to Apply</button>
+        </div>
+
+        <div>
+            <button class="invisButton" id="invisButton" onclick="expandNav();">Computer What?</button>
+        </div>
+        
+    </div>
+</body>
 </html>
+>>>>>>> master
