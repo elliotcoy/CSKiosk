@@ -136,10 +136,6 @@ function home() {
 	contentManager(0);
 }
 
-function contentManager2(url) {
-
-}
-
 function contentManager(val) {
     if (val == 1) {
         document.getElementById('frame').src = "content/computer/cs.html";
